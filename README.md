@@ -3,15 +3,14 @@
 
 <a href="http://www.w3school.com.cn/html/html_colornames.asp">字体颜色对照</a>
 
-<font color=#0000FF size=7 face="蓝色">color=#0000FF size=72 face="黑体"</font>
-$\color{#000000}{黑色}$
-$\color{#FF0000}{红色}$
-$\color{#00FF00}{绿色}$
-$\color{#0000FF}{蓝色}$
-$\color{#FFFF00}{黄色}$
-$\color{#00FFFF}{天蓝}$
-$\color{#FF00FF}{紫色}$
-$\color{#C0C0C0}{灰色}$
-$\color{#FFFFFF}{白色}$
+<p style="color: Black">color=#000000 black 黑色</p>
+<p style="color: red">color=#FF0000 red 红色</p>
+<p style="color: lime">color=#00FF00 lime 绿色</p>
+<p style="color: blue">color=#0000FF blue 蓝色</p>
+<p style="color: yellow">color=#FFFF00 yellow 黄色</p>
+<p style="color: aqua">color=#00FFFF aqua 天蓝</p>
+<p style="color: fuchsia">color=#FF00FF fuchsia 紫色</p>
+## <p style="color: silver">color=#C0C0C0 silver 灰色</p>
+<p style="color: white; bgcolor:black " >color=#FFFFFF white 白色</p>
 
 
