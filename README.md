@@ -3,6 +3,7 @@
 
 <a href="http://www.w3school.com.cn/html/html_colornames.asp">字体颜色对照</a>
 
+<font color=#0000FF size=7 face="蓝色">color=#0000FF size=72 face="黑体"</font>
 $\color{#000000}{黑色}$
 $\color{#FF0000}{红色}$
 $\color{#00FF00}{绿色}$
