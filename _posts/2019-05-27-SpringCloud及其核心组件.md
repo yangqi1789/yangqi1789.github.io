@@ -22,7 +22,7 @@ Spring Cloud 是一个基于 Spring Boot 实现的云应用开发工具,它为�
 
 ## 1. Eureka
 
-![Eureka](../img/eureka.png)
+![Eureka](https://raw.githubusercontent.com/yangqi1789/yangqi1789.github.io/master/img/eureka.png)
 
 作用：实现服务治理（服务注册与发现）
 
@@ -44,7 +44,7 @@ Eureka客户端是一个java客户端，用来处理服务注册与发现。
 
 ## 3. Hystrix
 
-![Eureka](../img/hystrix.jpg)
+![Eureka](https://raw.githubusercontent.com/yangqi1789/yangqi1789.github.io/master/img/hystrix.jpg)
 
 作用：断路器，保护系统，控制故障范围。
 
@@ -52,7 +52,7 @@ Eureka客户端是一个java客户端，用来处理服务注册与发现。
 
 ## 4.Zuul
 
-![zuul](../img/zuul.jpg)
+![zuul](https://raw.githubusercontent.com/yangqi1789/yangqi1789.github.io/master/img/zuul.jpg)
 
 作用：api网关，路由，负载均衡等多种作用
 
@@ -62,7 +62,7 @@ Eureka客户端是一个java客户端，用来处理服务注册与发现。
 
 ## 5.Config
 
-![config](../img/config.jpg)
+![config](https://raw.githubusercontent.com/yangqi1789/yangqi1789.github.io/master/img/config.jpg)
 
 作用：配置管理
 
