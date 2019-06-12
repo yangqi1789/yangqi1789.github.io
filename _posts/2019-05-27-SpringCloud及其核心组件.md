@@ -2,7 +2,7 @@
 layout:     post
 title:      SpringCloud及其核心组件
 subtitle:   
-date:       2019-06-03
+date:       2019-05-27
 author:     YQ
 header-img: img/spring-cloud.jpg
 catalog: true
@@ -69,3 +69,6 @@ Eureka客户端是一个java客户端，用来处理服务注册与发现。
 简介：SpringCloud Config提供服务器端和客户端。服务器存储后端的默认实现使用git，因此它轻松支持标签版本的配置环境，以及可以访问用于管理内容的各种工具。
 
 这个还是静态的，得配合Spring Cloud Bus实现动态的配置更新。
+
+**`sasa`** 
+
