@@ -70,5 +70,4 @@ Eureka客户端是一个java客户端，用来处理服务注册与发现。
 
 这个还是静态的，得配合Spring Cloud Bus实现动态的配置更新。
 
-**`sasa`** 
 
