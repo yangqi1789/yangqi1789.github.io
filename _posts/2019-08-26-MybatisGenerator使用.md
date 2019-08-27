@@ -6,7 +6,7 @@ date:       2019-06-12
 author:     YQ
 header-img: 
 catalog: true
-sidebar: false
+sidebar: true
 tags:
     - MybatisGenerator
 ---
@@ -114,7 +114,9 @@ MB的安装非常简单，只需要在项目中导入maven依赖及plugin即可�
 </table>
 ```
 
-### `<javaModelGenerator>`标签内常用可选属性，javaModelGenerator属性可以`<table>`标签内重写
+### `<javaModelGenerator>`标签
+
+javaModelGenerator内常用可选属性，可以`<table>`标签内重写
 
 1. 为true时自动为每一个生成的类创建一个构造方法，构造方法包含了所有的field
 
@@ -146,7 +148,9 @@ MB的安装非常简单，只需要在项目中导入maven依赖及plugin即可�
     <property name="rootInterface" value="com.mybatis.generator.dao.BaseDao"/>
     ```
 
-### `<table>`内常用可选属性
+### `<table>`标签
+
+包括javaModelGenerator内的属性，可以在这被重写
 
 1. 为生成的selectAll指定order by语句，也可以增加其他语句，会追加在sql的结尾
 
