@@ -40,7 +40,7 @@ CI和CD一起加速了您的团队为客户和涉众交付结果的速度。CI�
 
 1.Simply download one of the binaries for your system:
 
-```
+```bash
 # Linux x86-64
 sudo wget -O /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-linux-amd64
 
@@ -53,23 +53,28 @@ sudo wget -O /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.ama
 ```
 
 2.Give it permissions to execute:
-```
+
+```bash
 sudo chmod +x /usr/local/bin/gitlab-runner
-```
+````
 
 3.Optionally, if you want to use Docker, install Docker with:
-```
+
+```bash
 curl -sSL https://get.docker.com/ | sh
 ```
 
 4.Create a GitLab CI user:
-```
+
+```bash
 sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
 ```
 
 5.Install and run as service:
-```
+
+```bash
 sudo gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runner
 sudo gitlab-runner start
 ```
+
 6.[Register the Runner](https://docs.gitlab.com/runner/register/index.html)
