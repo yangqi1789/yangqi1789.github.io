@@ -5,7 +5,7 @@ subtitle:   根据数据库表名及其列名生成JAVA对应entity以及DAO
 date:       2019-06-12
 author:     YQ
 header-img: 
-catalog: false
+catalog: true
 sidebar: false
 tags:
     - MybatisGenerator
